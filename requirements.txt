@@ -1,5 +1,5 @@
 # --- Core Framework & AI ---
-langchain
+langchain==0.0.354
 langchain-core
 langchain-community
 openai              # Добавлено: используется в CustomCloudLLM
