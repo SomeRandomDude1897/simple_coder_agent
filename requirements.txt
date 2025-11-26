@@ -1,0 +1,27 @@
+# --- Core Framework & AI ---
+langchain
+langchain-core
+langchain-community
+openai              # Добавлено: используется в CustomCloudLLM
+tiktoken            # Добавлено: импортируется в custom_model.py
+python-dotenv
+pydantic
+
+# --- Network & Web Tools ---
+requests
+tavily-python
+beautifulsoup4
+selenium
+playwright
+urllib3             # Обычно ставится с requests, но иногда нужен явно
+
+# --- Machine Learning & Vector Stores ---
+faiss-cpu
+transformers
+huggingface-hub
+sentence-transformers
+
+# --- XSStrike & Utils Dependencies ---
+tld
+fuzzywuzzy
+python-Levenshtein  # Рекомендуется для ускорения fuzzywuzzy
